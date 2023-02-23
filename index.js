@@ -31,7 +31,7 @@ inquirer.prompt( [
         
 
     ]
-).then(data => {
+).then(({text, textColor, shape, shapeColor}) => {
     console.log(data);
 
     let logoShape;
